@@ -1,0 +1,203 @@
+/* Applique un fond vert foncé à la page entière et stylise la police */
+
+/* Container principal pour centrer le contenu */
+.container {
+  max-width: 900px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
+  border-radius: 15px;
+}
+
+/* En-tête (titre principal) */
+header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #ffcc00;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Image du jeu Minecraft */
+.minecraft-image {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+/* Effet de survol sur l'image */
+.minecraft-image:hover {
+  transform: scale(1.05);
+}
+
+/* Texte d'introduction et de conclusion */
+.intro, .conclusion {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: #e0e0e0;
+}
+
+/* Styliser le texte de conclusion */
+.conclusion {
+  font-weight: bold;
+  color: #f1fa8c;
+}
+
+/* Espacement général entre les éléments */
+p {
+  margin-bottom: 20px;
+}
+
+/* Amélioration des liens si ajoutés */
+a {
+  color: #ffcc00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f1fa8c;
+}
+/* Appliquer un fond noir à toute la page */
+body {
+  background-color: black;
+  color: white; /* Texte blanc pour contraster avec le fond noir */
+  font-family: Arial, sans-serif; /* Police moderne et lisible */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Améliorer l'espacement entre les lignes de texte */
+}
+
+/* Styliser le conteneur principal du contenu */
+.container {
+  max-width: 1200px;
+  margin: 20px auto; /* Centrer le conteneur et ajouter un espace autour */
+  padding: 20px;
+  background-color: #333; /* Couleur de fond sombre pour le conteneur */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre discrète pour ajouter de la profondeur */
+}
+
+/* Styliser les titres */
+h1, h2, h3 {
+  color: #FFD700; /* Couleur dorée pour les titres */
+  text-align: center; /* Centrer les titres */
+  font-weight: bold;
+}
+
+/* Styliser les paragraphes */
+p {
+  font-size: 1.1rem; /* Taille de texte plus grande pour les paragraphes */
+  margin-bottom: 15px;
+  text-align: justify; /* Justifier le texte pour une meilleure lisibilité */
+}
+
+/* Ajouter un style aux liens */
+a {
+  color: #1E90FF; /* Couleur bleue pour les liens */
+  text-decoration: none; /* Enlever la soulignement par défaut */
+}
+
+a:hover {
+  color: #FFD700; /* Changer la couleur du lien lorsqu'il est survolé */
+  text-decoration: underline; /* Souligner le lien au survol */
+}
+
+/* Ajouter un bouton stylisé */
+button {
+  background-color: #1E90FF; /* Couleur bleue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #FFD700; /* Changer la couleur au survol */
+  color: black;
+}
+
+
+/* Appliquer un fond noir à toute la page */
+body {
+  background-color: black;
+  color: white; /* Texte blanc pour contraster avec le fond noir */
+  font-family: Arial, sans-serif; /* Police moderne et lisible */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Améliorer l'espacement entre les lignes de texte */
+}
+
+/* Styliser le conteneur principal du contenu */
+.container {
+  max-width: 1200px;
+  margin: 20px auto; /* Centrer le conteneur et ajouter un espace autour */
+  padding: 20px;
+  background-color: #333; /* Couleur de fond sombre pour le conteneur */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre discrète pour ajouter de la profondeur */
+}
+
+/* Styliser les titres */
+h1, h2, h3 {
+  color: #FFD700; /* Couleur dorée pour les titres */
+  text-align: center; /* Centrer les titres */
+  font-weight: bold;
+}
+
+/* Styliser les paragraphes */
+p {
+  font-size: 1.1rem; /* Taille de texte plus grande pour les paragraphes */
+  margin-bottom: 15px;
+  text-align: justify; /* Justifier le texte pour une meilleure lisibilité */
+}
+
+/* Ajouter un style aux liens */
+a {
+  color: #1E90FF; /* Couleur bleue pour les liens */
+  text-decoration: none; /* Enlever la soulignement par défaut */
+  font-weight: bold; /* Rendre les liens un peu plus distincts */
+  position: relative; /* Nécessaire pour positionner l'élément après */
+  transition: all 0.3s ease; /* Transition douce pour tous les effets */
+}
+
+/* Effet au survol des liens */
+a:hover {
+  color: #FFD700; /* Changer la couleur du lien en doré au survol */
+  text-decoration: underline; /* Souligner au survol */
+  transform: scale(1.1); /* Agrandir légèrement le lien au survol */
+}
+
+/* Ajouter un effet de sous-lignage personnalisé */
+a::after {
+  content: ''; /* Nécessaire pour afficher l'élément après le lien */
+  position: absolute;
+  bottom: -5px; /* Décaler légèrement sous le texte */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Taille de la ligne */
+  background-color: #FFD700; /* Couleur dorée de la ligne */
+  transform: scaleX(0); /* Démarrer invisible */
+  transform-origin: bottom right; /* Début de l'animation sur la droite */
+  transition: transform 0.3s ease-out; /* Transition pour l'animation de la ligne */
+}
+
+/* Au survol, faire apparaître la ligne sous le lien */
+a:hover::after {
+  transform: scaleX(1); /* Lien sous-ligné qui apparaît au survol */
+  transform-origin: bottom left; /* Animation de gauche à droite */
+}
+
+/* Réinitialisation de quelques styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mise en page globale */
